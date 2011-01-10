@@ -77,9 +77,8 @@ EOF
 }
 
 {
-    package MY;
-
-    use Config;
+    package # hide from PAUSE
+        MY;
 
     my $message;
     BEGIN {
