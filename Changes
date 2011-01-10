@@ -1,6 +1,8 @@
 Revision history for ExtUtils-MakeMaker-Dist-Zilla-Develop
 
 {{$NEXT}}
+
+0.02  2011-01-10
       - whoops, need to hide MY
 
 0.01  2011-01-10
