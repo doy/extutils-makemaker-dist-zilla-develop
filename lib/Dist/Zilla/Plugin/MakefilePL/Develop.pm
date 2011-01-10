@@ -20,7 +20,7 @@ sub gather_files {
 use strict;
 use warnings;
 
-use ExtUtils::MakeMaker::Dist::Zilla;
+use ExtUtils::MakeMaker::Dist::Zilla::Develop;
 
 WriteMakefile(
     NAME => '$mod_name',
@@ -46,18 +46,18 @@ sub munge_files {
         my $content = $dist_ini->content;
         Dist::Zilla::File::InMemory->meta->rebless_instance(
             $dist_ini,
-            content => $content . "\n[MakefilePL::Lite]\n",
+            content => $content . "\n[MakefilePL::Develop]\n",
         );
     }
     elsif ($dist_ini->isa('Dist::Zilla::File::InMemory')) {
-        $dist_ini->content($dist_ini->content . "\n[MakefilePL::Lite]\n");
+        $dist_ini->content($dist_ini->content . "\n[MakefilePL::Develop]\n");
     }
     elsif ($dist_ini->isa('Dist::Zilla::File::FromCode')) {
         my $code = $dist_ini->code;
         my $weak_dist_ini = $dist_ini;
         Scalar::Util::weaken($weak_dist_ini);
         $dist_ini->code(sub {
-            $weak_dist_ini->$code . "\n[MakefilePL::Lite]\n"
+            $weak_dist_ini->$code . "\n[MakefilePL::Develop]\n"
         });
     }
 }
