@@ -1,4 +1,4 @@
-package ExtUtils::MakeMaker::Dist::Zilla;
+package ExtUtils::MakeMaker::Dist::Zilla::Develop;
 use strict;
 use warnings;
 

@@ -1,4 +1,4 @@
-package Dist::Zilla::Plugin::MakefilePL::Lite;
+package Dist::Zilla::Plugin::MakefilePL::Develop;
 use Moose;
 
 with qw(
