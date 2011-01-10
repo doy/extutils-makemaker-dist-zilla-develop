@@ -102,8 +102,8 @@ MESSAGE
         return <<EOF;
 install:
 $message
-	\$(NOECHO) echo "Running dzil install for you...";
-	\$(NOECHO) dzil install
+\t\$(NOECHO) echo "Running dzil install for you...";
+\t\$(NOECHO) dzil install
 EOF
     }
 
@@ -111,8 +111,8 @@ EOF
         return <<EOF;
 dist:
 $message
-	\$(NOECHO) echo "Running dzil build for you...";
-	\$(NOECHO) dzil build
+\t\$(NOECHO) echo "Running dzil build for you...";
+\t\$(NOECHO) dzil build
 EOF
     }
 }
