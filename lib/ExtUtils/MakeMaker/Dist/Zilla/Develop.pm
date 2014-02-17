@@ -31,11 +31,9 @@ commands to generate your test suite, for example), and tell Dist::Zilla to
 replace it with a real C<Makefile.PL> when you're actually ready to build a
 real distribution. To do this, make sure you're still using the
 L<MakeMaker|Dist::Zilla::Plugin::MakeMaker> plugin, either directly or through
-a pluginbundle like L<@Basic|Dist::Zilla::PluginBundle::Basic>, and add this to
-your C<dist.ini>:
-
-  [PruneFiles]
-  filenames = Makefile.PL
+a pluginbundle like L<@Basic|Dist::Zilla::PluginBundle::Basic>, and add the
+C<exclude_filename = Makefile.PL> option to your F<dist.ini> where you use
+C<[GatherDir]>.
 
 In addition, this module also intercepts the C<install> and C<dist> rules in
 the generated Makefile to run the appropriate Dist::Zilla commands
