@@ -1,6 +1,7 @@
 Revision history for ExtUtils-MakeMaker-Dist-Zilla-Develop
 
 {{$NEXT}}
+      - update documentation for removing Makefile.PL (Karen Etheridge, #1)
 
 0.02  2011-01-10
       - whoops, need to hide MY
