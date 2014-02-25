@@ -118,9 +118,8 @@ EOF
 
 No known bugs.
 
-Please report any bugs through RT: email
-C<bug-extutils-makemaker-dist-zilla-develop at rt.cpan.org>, or browse to
-L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=ExtUtils-MakeMaker-Dist-Zilla-Develop>.
+Please report any bugs to GitHub Issues at
+L<https://github.com/doy/extutils-makemaker-dist-zilla-develop/issues>.
 
 =head1 SEE ALSO
 
@@ -138,21 +137,21 @@ You can also look for information at:
 
 =over 4
 
-=item * AnnoCPAN: Annotated CPAN documentation
+=item * MetaCPAN
 
-L<http://annocpan.org/dist/ExtUtils-MakeMaker-Dist-Zilla-Develop>
+L<https://metacpan.org/release/ExtUtils-MakeMaker-Dist-Zilla-Develop>
 
-=item * CPAN Ratings
+=item * Github
 
-L<http://cpanratings.perl.org/d/ExtUtils-MakeMaker-Dist-Zilla-Develop>
+L<https://github.com/doy/extutils-makemaker-dist-zilla-develop>
 
 =item * RT: CPAN's request tracker
 
 L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=ExtUtils-MakeMaker-Dist-Zilla-Develop>
 
-=item * Search CPAN
+=item * CPAN Ratings
 
-L<http://search.cpan.org/dist/ExtUtils-MakeMaker-Dist-Zilla-Develop>
+L<http://cpanratings.perl.org/d/ExtUtils-MakeMaker-Dist-Zilla-Develop>
 
 =back
 
